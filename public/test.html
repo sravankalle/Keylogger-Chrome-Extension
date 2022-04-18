@@ -1,0 +1,12 @@
+<script type="text/python">
+    from browser import document, alert, bind
+
+    @bind("body.keylogger", "keydown")
+    def hello(ev):
+        print(ev.key)
+
+    def clicked(ev):
+        alert("HACKED!")
+
+    document["cryptonite"].bind("click", clicked)
+</script>
