@@ -3,7 +3,7 @@ Uses Javascript and [brython](https://brython.info/)
 
 ## How to use
 1. Clone/Fork the repo
-2. In chrome visit `chrome://extentions`
+2. In chrome visit `chrome://extensions`
 3. enable developer mode which will reveal a "Load unpacked" button
 4. Click "Load unpacked" and select the folder of the repo
 
