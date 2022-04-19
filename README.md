@@ -1,4 +1,4 @@
-# Keylogger Chrome Extention
+# Keylogger Chrome Extension
 Uses Javascript and [brython](https://brython.info/)
 
 ## How to use
